@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6a868/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6a868.dir/build.make CMakeFiles/cmTC_6a868.dir/build
-make[1]: Entering directory '/mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6a868.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_6a868.dir/CheckSymbolExists.c.o   -c /mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_6a868
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a868.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6a868.dir/CheckSymbolExists.c.o  -o cmTC_6a868 -rdynamic 
-CMakeFiles/cmTC_6a868.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_07327/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07327.dir/build.make CMakeFiles/cmTC_07327.dir/build
+make[1]: Entering directory '/home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07327.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_07327.dir/CheckSymbolExists.c.o   -c /home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07327
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07327.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_07327.dir/CheckSymbolExists.c.o  -o cmTC_07327 -rdynamic 
+CMakeFiles/cmTC_07327.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6a868.dir/build.make:97: recipe for target 'cmTC_6a868' failed
-make[1]: *** [cmTC_6a868] Error 1
-make[1]: Leaving directory '/mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6a868/fast' failed
-make: *** [cmTC_6a868/fast] Error 2
+CMakeFiles/cmTC_07327.dir/build.make:97: recipe for target 'cmTC_07327' failed
+make[1]: *** [cmTC_07327] Error 1
+make[1]: Leaving directory '/home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_07327/fast' failed
+make: *** [cmTC_07327/fast] Error 2
 
-File /mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_21c4c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21c4c.dir/build.make CMakeFiles/cmTC_21c4c.dir/build
-make[1]: Entering directory '/mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21c4c.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_21c4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_21c4c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21c4c.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_21c4c.dir/CheckFunctionExists.c.o  -o cmTC_21c4c -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_ddb5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ddb5f.dir/build.make CMakeFiles/cmTC_ddb5f.dir/build
+make[1]: Entering directory '/home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddb5f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ddb5f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ddb5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddb5f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ddb5f.dir/CheckFunctionExists.c.o  -o cmTC_ddb5f -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_21c4c.dir/build.make:97: recipe for target 'cmTC_21c4c' failed
-make[1]: *** [cmTC_21c4c] Error 1
-make[1]: Leaving directory '/mnt/c/SAPHI/Projects/c-web-sockets/Simple-WebSocket-Server/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_21c4c/fast' failed
-make: *** [cmTC_21c4c/fast] Error 2
+CMakeFiles/cmTC_ddb5f.dir/build.make:97: recipe for target 'cmTC_ddb5f' failed
+make[1]: *** [cmTC_ddb5f] Error 1
+make[1]: Leaving directory '/home/pi/c-web-sockets/ws-hello-world/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ddb5f/fast' failed
+make: *** [cmTC_ddb5f/fast] Error 2
 
 
